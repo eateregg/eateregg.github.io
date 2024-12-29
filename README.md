@@ -1,1 +1,1 @@
-# eggeater.github.io
+# eggeater
