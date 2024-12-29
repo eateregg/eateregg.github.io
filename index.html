@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Art Page</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            
+        }
+
+        /* 부모 요소: 이미지 그룹화 */
+        .image-group {
+            position: absolute; /* 부모 요소의 절대 위치 설정 */
+            top: 50%; /* 화면의 아래쪽에 위치 */
+            right: 50%; /* 화면의 왼쪽에 위치 */
+            width: 60vw; /* 부모 요소 너비를 화면의 60%로 설정 */
+            height: 60vh; /* 부모 요소 높이를 화면의 60%로 설정 */
+        }
+
+        .image1, .image2, .image3, .image4, .image5,.image6,.image7,.image8 {
+            position: absolute; /* 이미지들을 절대 위치로 배치 */
+            width: 100%; /* 각 이미지의 너비를 30%로 설정 */
+            height: auto; /* 비율에 맞게 높이 자동 설정 */
+        }
+
+        .image1 {
+            top: 25%; /* 상단 10% */
+            left: 29%; /* 왼쪽 10% */
+            z-index: 2;
+        }
+      
+
+        .image2 {
+            top: 20%; /* 상단 20% */
+            left: 30%; /* 왼쪽 30% */
+            z-index: 1;
+        }
+        .image3 {
+            top: 0%; /* 상단 20% */
+            left: 50%; /* 왼쪽 30% */
+            z-index: 1;
+        }
+        .image4 {
+            bottom: 10%; /* 상단 20% */
+            left: 100%; /* 왼쪽 30% */
+            z-index: 1;
+        }
+        .image5 {
+            bottom: 150%; /* 상단 20% */
+            left: 150%; /* 왼쪽 30% */
+            z-index: 1;
+        }
+        .image6 {
+            bottom: 70%; /* 상단 20% */
+            left: 90%; /* 왼쪽 30% */
+            z-index: 1;
+        }
+        .image7 {
+            bottom: 140%; /* 상단 20% */
+            left: 160%; /* 왼쪽 30% */
+            z-index: 1;
+            transform: rotate(92deg)
+        }
+    
+    
+    
+        
+    </style>
+</head>
+<body>
+    <!-- 이미지 삽입 -->
+    <div class="image-group">
+    <img src="eggeater.png" alt="빈칸임" style="max-width: 50%; height: auto;" class="image3">
+    <img src="starsticker.png" alt="빈칸임" style="max-width: 30%; height: auto;" class="image6">
+    <img src="pngegg.png" alt="빈칸임" style="max-width: 20%; height: auto;" class="image7">
+
+
+
+
+ 
+</body>
+</html>
